@@ -10,8 +10,8 @@ A high-performance URL shortener built with FastAPI, PostgreSQL, Redis, and Ngin
 └─────────┘      │  (Port 80)│      │  (Port 8000) │
                  └───────────┘      └──────┬───────┘
                                            │
-                      ┌────────────────────┼────────────────────┐
-                      │                    │                    │
+                      ┌────────────────────|
+                      │                    │                    
                       ▼                    ▼
                 ┌──────────┐         ┌─────────┐
                 │PostgreSQL│         │  Redis  │
