@@ -1,0 +1,70 @@
+{
+  "clientName": "Thunder Client",
+  "collectionName": "URL Shortener API",
+  "collectionId": "url-shortener-collection",
+  "dateExported": "2026-02-18",
+  "version": "1.0",
+  "folders": [],
+  "requests": [
+    {
+      "name": "1. Health Check",
+      "method": "GET",
+      "url": "http://localhost/health",
+      "headers": [],
+      "tests": [],
+      "colId": "url-shortener-collection",
+      "created": "2026-02-18T00:00:00.000Z",
+      "modified": "2026-02-18T00:00:00.000Z"
+    },
+    {
+      "name": "2. Create Short URL",
+      "method": "POST",
+      "url": "http://localhost/shorten",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"url\": \"https://github.com/fastapi/fastapi\"\n}"
+      },
+      "tests": [],
+      "colId": "url-shortener-collection",
+      "created": "2026-02-18T00:00:00.000Z",
+      "modified": "2026-02-18T00:00:00.000Z"
+    },
+    {
+      "name": "3. Get URL Info (JSON)",
+      "method": "GET",
+      "url": "http://localhost/abc123?format=json",
+      "headers": [],
+      "tests": [],
+      "colId": "url-shortener-collection",
+      "created": "2026-02-18T00:00:00.000Z",
+      "modified": "2026-02-18T00:00:00.000Z"
+    },
+    {
+      "name": "4. Redirect to Original URL",
+      "method": "GET",
+      "url": "http://localhost/abc123",
+      "headers": [],
+      "tests": [],
+      "colId": "url-shortener-collection",
+      "created": "2026-02-18T00:00:00.000Z",
+      "modified": "2026-02-18T00:00:00.000Z"
+    },
+    {
+      "name": "5. Root Endpoint",
+      "method": "GET",
+      "url": "http://localhost/",
+      "headers": [],
+      "tests": [],
+      "colId": "url-shortener-collection",
+      "created": "2026-02-18T00:00:00.000Z",
+      "modified": "2026-02-18T00:00:00.000Z"
+    }
+  ]
+}
+

@@ -1,0 +1,18 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+
+# Cache & Rate Limiting
+redis==5.0.1
+slowapi==0.1.9
+
+# Utilities
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
