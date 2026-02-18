@@ -82,8 +82,7 @@ GET http://localhost/{short_code}?format=json
 ```
 
 ### 5. API Documentation
-- Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
+- Swagger UI: `http://localhost:80/docs`
 
 ## Testing with Thunder Client (VS Code)
 
